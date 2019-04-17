@@ -1,11 +1,22 @@
 {
     "compilerOptions": {
         "module": "commonjs",
+        "lib": [
+            "esnext",
+            "dom"
+        ],
         "target": "es2017",
         "sourceMap": true,
+        "moduleResolution": "node",
+        "strict": true,
+        "jsx": "react",
+        "allowJs": true,
+        "inlineSources": true,
         "types": [
             "node"
-        ]
+        ],
+        "allowSyntheticDefaultImports": true,
+        "experimentalDecorators": true
     },
     "exclude": [
         "node_modules"

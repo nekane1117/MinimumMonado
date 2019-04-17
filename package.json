@@ -1,0 +1,29 @@
+{
+  "name": "minimummonado",
+  "version": "1.0.0",
+  "description": "Aim for a minimal monad",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "call ./node_modules/.bin/tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nekane1117/MinimumMonado.git"
+  },
+  "keywords": [
+    "monado"
+  ],
+  "author": "nekane1117",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nekane1117/MinimumMonado/issues"
+  },
+  "homepage": "https://github.com/nekane1117/MinimumMonado#readme",
+  "dependencies": {
+    "@types/node": "^11.13.4"
+  },
+  "devDependencies": {
+    "typescript": "^3.4.3"
+  }
+}
